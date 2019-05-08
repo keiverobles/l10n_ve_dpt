@@ -27,7 +27,7 @@
             <field name="model">res.country.state.municipality</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
-                <form string="Municipality">
+                <form string="Municipality" create="0" edit="0">
                 <group col="4" colspan="2">
                     <field name="code" select="1"/>
                     <field name="name" select="2"/>
@@ -42,7 +42,7 @@
             <field name="model">res.country.state.municipality</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Municipality">
+                <tree string="Municipality" create="0">
                     <field name="code"/>
                     <field name="name"/>
                     <field name="state_id"/>
@@ -63,7 +63,7 @@
             <field name="model">res.country.state.municipality.parish</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
-                <form string="Parish">
+                <form string="Parish" create="0" edit="0">
                 <group col="4" colspan="2">
                     <field name="code" select="1"/>
                     <field name="name" select="2"/>
@@ -78,7 +78,7 @@
             <field name="model">res.country.state.municipality.parish</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Parish">
+                <tree string="Parish" create="0">
                     <field name="code"/>
                     <field name="name"/>
                     <field name="municipality_id"/>
