@@ -35,17 +35,17 @@ manera que queden disponibles en todos los campos de dirección en modelos deriv
      """,
     "maintainer": "Bachaco-ve",
     "website": "http://www.bachaco.org.ve",
-	'images': ['static/description/icon.png'],
+    'images': ['static/description/icon.png'],
     "depends": ['base', ],
     "init_xml": [],
     "demo_xml": [],
     "data": [
+        'views/l10n_ve_dpt_view.xml',
         'data/res.country.state.xml',
         'data/res.country.state.municipality.xml',
         'data/res.country.state.municipality.parish.xml',
         'views/l10n_ve_dpt_view.xml',
         'views/res_partner.xml',
     ],
-    "update_xml": ['views/l10n_ve_dpt_view.xml'],
     "installable": True
 }

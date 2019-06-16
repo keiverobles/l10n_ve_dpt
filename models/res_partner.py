@@ -1,4 +1,5 @@
-from openerp import models, fields, api
+from odoo import models, fields, api
+
 
 class res_partner(models.Model):
 
@@ -13,4 +14,3 @@ class res_partner(models.Model):
         address_fields.add('municipality_id')
         address_fields.add('parish_id')
         return list(address_fields)
-

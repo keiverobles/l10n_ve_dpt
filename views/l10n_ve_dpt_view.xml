@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<openerp>
+<odoo>
     <data>
 
         <record id="view_state_filter" model="ir.ui.view">
@@ -103,4 +103,4 @@
         <menuitem id="item_parishes" name="Parishes" parent="main_menu_l10n_ve_ptd" action="action_parish"/>
 
     </data>
-</openerp>
+</odoo>
